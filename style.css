@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right,blue,purple);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+h1{
+    font-weight: 800;
+}
+.container{
+    height: 500px;
+    width: 350px;
+    background: white;
+    text-align: center;
+    padding-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.wrapper_input{
+    height: 40px;
+    text-align: unset;
+}
+.wrapper_input input{
+    width: 80%;
+    height: 35px;
+
+    border: none;
+    border-bottom: 1px solid black;
+}
+input:focus{
+    background: rgb(211, 211, 218);
+    outline: none;
+}
+
+button{
+    width:80%;
+    margin: auto;
+    
+    height: 45px;
+    background-color: rgb(53, 53, 198);
+
+    color: white;
+    font-weight: 600;
+    
+    border-radius: 30px;
+
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(91, 91, 192);
+
+}
+.login{
+    margin-top: 20px;
+}
+.recommend{
+    margin-top: -10px;
+}
+.recommend span{
+    
+}
+.signup{
+    color: blue;
+    cursor: pointer;
+}
+.error{
+   color: red;
+   text-align: left;
+   padding-left: 35px;
+}
